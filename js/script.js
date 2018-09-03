@@ -22,10 +22,10 @@ $(document).ready(function(){
             spot1.hasClass(player) && spot5.hasClass(player) && spot9.hasClass(player) ||
             spot3.hasClass(player) && spot5.hasClass(player) && spot7.hasClass(player) 
            ){
-                alert(player+' true');
+                //alert(player+' true');
                 return true;
             }else{
-                alert(player+' false');
+                //alert(player+' false');
                 return false;
             }
     }
